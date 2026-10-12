@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-v4020-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-v4020-SemiBold.otf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-image: url("../img/foto1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #0D302C;
+    font-weight: 400;
+}
+nav {
+    padding-top: 2.5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2.8rem;
+}
+nav a {
+    text-decoration: none;
+    color: #0D302C;
+    font-size: 1rem;
+    font-weight: 400;
+}
+header h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 8.75rem;
+    text-align: center;
+    margin-top: 10rem;
+    letter-spacing: 0.4rem;
+}
+header p {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.about {
+    padding: 5rem 0;
+}
+.about h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #01353e;
+    margin-bottom: 3rem;
+    letter-spacing: 0.05rem;
+}
+ .about-columns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.about-columns > div {
+    width: 45%;
+}
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: #333;
+}
+.mount {
+    padding: 5rem 0;
+}
+.mount h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #01353e;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.mount-columns {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.mount-text {
+    width: 45%;
+}
+.mount-text p {
+    font-size: 1rem;
+    line-height: 1.15;
+    margin-bottom: 1.3rem;
+    color: #333;
+}
+.mount img {
+    width: 60%;
+    max-width: 500rem;
+    height: auto;
+    object-fit:scale-down;
+}
+.serf {
+    padding: 5rem 0 3rem;
+    text-align: center;
+}
+.serf h2 {
+     font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #01353e;
+    margin-bottom: 3rem;
+}
+.serf-columns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.serf-card {
+    width: 280px;
+}
+.serf-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+.serf-card .name {
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 0.3rem;
+}
+.serf-card .role {
+    font-size: 0.95rem;
+    color: #555;
+}
+.footer {
+    background-color: #00B2A0;
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer p {
+     font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 12rem;
+    letter-spacing: 0.4rem;
+    color: #0D302C;
+}
